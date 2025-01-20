@@ -1,0 +1,53 @@
+body {
+  font-family: Apple Chancery, cursive;
+  background-color: #d5f4f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #3c628a;
+  font-size: 4em;
+}
+
+#task-form {
+  text-align: center;
+  margin: 50px;
+}
+
+#new-task {
+  font-size: large;
+  padding: 15px;
+  width: 40%;
+  border-radius: 8px;
+}
+
+button {
+  padding: 18px;
+  cursor: pointer;
+  background-color: #60e5fa;
+  border-radius: 8px;
+}
+
+li {
+  background-color: #ffffff;
+  font-size: large;
+  margin: 15px;
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#due-date{
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.completed {
+  text-decoration: line-through;
+  background-color: rgba(234, 86, 86, 0.685);
+  opacity: 0.9;
+}
